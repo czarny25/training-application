@@ -36,8 +36,6 @@ public class MainFrame extends JFrame{
 		welcomePanel = new WelcomePicturePanel("", 5);
 		
 		
-		
-		
 		setJMenuBar(menu.createMainMenu());
 		
 		add(welcomePanel, BorderLayout.CENTER);
